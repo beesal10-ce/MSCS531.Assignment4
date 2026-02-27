@@ -1,0 +1,14 @@
+GEM5 SIMULATION RESULTS SUMMARY
+
+1. BASELINE CONFIGURATION
+simTicks                                     15940000
+system.cpu.ipc                               0.178821
+system.cpu.icacheWaitResponse                0.569321 (56.9% Fetch Stall)
+
+2. SUPERSCALAR CONFIGURATION (4-WIDE)
+simTicks                                     17230500
+system.cpu.ipc                               0.165429
+
+3. SMT CONFIGURATION
+simTicks                                     15940000
+system.cpu.ipc                               0.178821
